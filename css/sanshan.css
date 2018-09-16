@@ -17,7 +17,7 @@ i{
 	font-style: normal;
 }
 body{
-	background-image: url('../../APP/img/logo.jpg');
+	background-image: url('../img/logo.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
