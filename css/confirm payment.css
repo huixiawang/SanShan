@@ -1,0 +1,78 @@
+/*
+* @Author: WHX
+* @Date:   2018-08-16 19:31:10
+* @Last Modified by:   WHX
+* @Last Modified time: 2018-08-16 21:49:13
+*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+body{
+	background-image: url('../img/background.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header{
+	width: 4.81rem;
+	height: 4.04rem;
+	background: #fff;
+	border-radius: 0.16rem;
+	margin-top: 4.47rem;
+	position: relative;
+}
+header img{
+	width: 4.81rem;
+	height: 2.41rem;
+	display: block;
+}
+header h5{
+	font-size: 0.36rem;
+	font-weight: normal;
+	font-weight: 600;	
+	padding: 0 0.24rem;
+}
+header p{
+	font-size: 0.18rem;
+	padding: 0 0.24rem;
+}
+header .add{
+	display: flex;
+	flex-direction: row;
+	padding: 0 0.24rem;
+}
+header .add img{
+	width: 0.29rem;
+	height: 0.29rem;
+	display: block;
+	margin-top: 0.05rem;
+}
+header .add p{
+	font-size: 0.26rem;
+	color: #f91b58;
+}
+header h6{
+	font-size: 0.36rem;
+	color: #f91b58;
+	font-weight: normal;
+	padding: 0 0.24rem;
+}
+header .pic img{
+	width: 1.26rem;
+	height: 0.42rem;
+	display: block;
+	position: absolute;
+	right: 0.33rem;
+	bottom: 0.5rem;
+}

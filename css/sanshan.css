@@ -1,0 +1,37 @@
+/*
+* @Author: WHX
+* @Date:   2018-08-17 08:48:59
+* @Last Modified by:   WHX
+* @Last Modified time: 2018-08-17 09:09:51
+*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+body{
+	background-image: url('../../APP/img/logo.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.header{
+	width: 1.1rem;
+	height: 0.6rem;
+	background: #fff;
+	border: 1px #aaaaaa solid;
+	color: #000;
+	font-size: 0.36rem;
+	text-align: center;
+	border-radius: 0.25rem;
+	position: absolute;
+	right: 0.2rem;
+	top: 0.2rem;
+}

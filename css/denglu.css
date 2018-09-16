@@ -1,0 +1,93 @@
+/*
+* @Author: WHX
+* @Date:   2018-08-14 19:07:35
+* @Last Modified by:   WHX
+* @Last Modified time: 2018-08-16 19:09:55
+*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+body{
+	background-image: url('../img/denglu.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.header{
+	width: 1.80rem;
+	height: 0.64rem;
+	color: #fff;
+	background: #f91b58;
+	text-align: center;
+	line-height: 0.64rem;
+	border-radius: 0.32rem;
+	font-size: 0.36rem;
+	margin: 0.66rem 0 0 5.09rem;
+}
+main{
+	margin-top: 6.82rem;
+	}
+main .top{
+	display: flex;
+	flex-direction: row;
+	margin-left:1.7rem;
+	margin-top: 0.2rem;
+}
+main .top img{
+	width: 0.63rem;
+	height: 0.63rem;
+	display: block;
+
+}
+main input{
+	border: none;
+	border-bottom: 1px solid #aaaaaa;
+	width: 3.35rem;
+	margin-left: 0.2rem;
+}
+main .pass{
+	display: flex;
+	flex-direction: row;
+	margin-left:1.7rem;
+	margin-top: 0.1rem;
+}
+main .pass input{
+	width:0.2rem;
+}
+main .pass p{
+	font-size: 0.22rem;
+	color: #aaaaaa;
+}
+main .pass .wang{
+	margin-left: 1.9rem;
+}
+.denglu{
+	width: 3.47rem;
+	height: 0.76rem;
+	color: #fff;
+	background: #f91b58;
+	text-align: center;
+	line-height: 0.76rem;
+	border-radius: 0.38rem;
+	font-size: 0.36rem;
+	margin: 0.66rem 0 0 1.98rem;
+}
+.qq{
+	display: flex;
+	justify-content: center;
+}
+.qq img{
+	display: block;
+	width: 4.56rem;
+	height: 1.23rem;
+	margin-top: 0.38rem;
+
+}

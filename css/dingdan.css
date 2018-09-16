@@ -1,0 +1,243 @@
+/*
+* @Author: WHX
+* @Date:   2018-08-12 16:05:37
+* @Last Modified by:   WHX
+* @Last Modified time: 2018-08-14 19:03:57
+*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+body{
+	background: #f4f4f4;
+}
+
+header{
+	width: 100%;
+	height: 0.97rem;
+	background: linear-gradient(to right,#f91a59,#fc4343);
+	display: flex;
+	flex-direction: row;
+}
+header .left{
+	width: 5.53rem;
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+header .left img{
+	width: 3.43rem;
+	height: 0.44rem;
+	display: block;
+
+}
+header .right{
+	width: 1.85rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+}
+header .right .icon1{
+	width: 0.35rem;
+	height: 0.35rem;
+	display: block;
+
+}
+header .right .icon2{
+	width: 0.25rem;
+	height: 0.31rem;
+	display: block;
+	margin: 0 0.24rem;
+}
+main{
+	padding-left: 0.24rem;
+}
+main .pic img{
+	display: block;
+	width: 2.68rem;
+	height: 0.74rem;
+	margin-top: 0.41rem;
+}
+main ul{
+	/* width: 7.02rem; */
+	height: 3.83rem;
+	display: flex;
+	flex-direction: row;
+
+	/* overflow: hidden; */
+}
+main ul li{
+	width: 2.34rem;
+	height: 3.59rem;
+	box-shadow: 0 0.08rem 0.15rem rgba(249, 27, 88, 0.25);
+	margin-right: 0.2rem;
+	background: #fff;
+	/* float: left; */
+}
+main ul li img{
+	width: 2.34rem;
+	height: 2.62rem;
+}
+main ul li .title{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	margin-top: -0.3rem;
+	justify-content: center;
+}
+main ul li p{
+	font-size: 0.3rem;
+	text-align: center;
+	color: #f91b58;
+}
+main ul li h4{
+	font-size: 0.24rem;
+	color: #f91b58;
+	/* text-align: center; */
+	font-weight: normal;
+	/* display: block; */
+	margin-top: 0.06rem;
+}
+main ul li h5{
+	font-size: 0.34rem;
+	text-align: center;
+}
+
+
+.history{
+	width: 100%;
+	height: 5.71rem;
+	padding: 0 0.24rem;
+}
+.history .pic2 img{
+	width: 2.64rem;
+	height: 0.5rem;
+}
+.history li{
+	width: 7.02rem;
+	height: 1.33rem;
+	box-shadow: 0 0.08rem 0.15rem rgba(255, 216, 36, 0.58);
+	border-radius: 0.1rem;
+	background: #fff;
+	margin-bottom: 0.24rem;
+	display: flex;
+	flex-direction: row;
+}
+.history li .left img{
+	width: 1.58rem;
+	height: 1.34rem;
+	display: block;
+	overflow: hidden;
+
+}
+.history .mid,.right{
+	margin-top: 0.15rem;
+}
+.history .mid{
+	width: 3.2rem;
+	padding-left: 0.28rem;
+}
+.history .mid h5{
+	color: #000;
+	font-size: 0.28rem;
+}
+.history .mid img{
+	width: 1.26rem;
+	height: 0.01rem;
+	display: block;
+	margin: 0.04rem 0;
+}
+.history .mid p{
+	color: #000;
+	font-size: 0.18rem;
+	margin-bottom: 0.15rem;
+}
+.history .mid h6{
+	font-size: 0.18rem;
+	color: #ff1753;
+	font-weight: normal;
+}
+
+.history .right .ping{
+	width: 1.55rem;
+	height: 0.48rem;
+	color: #ff1753;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.48rem;
+	border-radius: 0.24rem;
+	box-shadow: 0 0.06rem 0.15rem rgba(249, 27, 88, 0.36);
+}
+.history .right .ping2{
+	width: 1.55rem;
+	height: 0.48rem;
+	color: #ff1753;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.48rem;
+	border-radius: 0.24rem;
+	box-shadow: 0 0.08rem 0.15rem rgba(249, 27, 88, 0.36);
+	margin-top: 0.1rem;
+}
+
+
+/* 底部开始 */
+footer{
+	width: 100%;
+	background: #fff;
+	height: 1.13rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding: 0 0.24rem 0.15rem 0.24rem;
+	box-shadow:0 -0.03rem 0.25rem rgba(255, 216, 36, 0.58);
+}
+footer ul{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	/* align-items: center; */
+	padding: 0 0.85rem;
+}
+footer li{
+	width: 0.89rem;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-top: 0.14rem;
+}
+footer  ul li a{
+	display:block ;
+	margin-top: -0.56rem;
+	height: 1.05rem;
+}
+footer li .pic1{
+	width: 0.51rem;
+	height: 0.49rem;
+}
+footer li .pic2{
+	width: 0.41rem;
+	height: 0.49rem;
+	margin-left: 0.05rem;
+}
+footer li .pink{
+	font-size: 0.24rem;
+	color: #f91b58;
+
+}
+footer li span{
+	font-size: 0.24rem;
+	color: #5c6064;
+}
+/* 底部结束 */
